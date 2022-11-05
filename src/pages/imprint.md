@@ -7,18 +7,13 @@ heroImage: "/placeholder-about.jpg"
 ---
 
 # Imprint
-According to § 5 TMG
 
-## Address
+Responsible for content:
+
 Philip Schmitt  
 Bahnhofstraße 16  
 83620 Feldkirchen-Westerham
 
-## Contact
-Phone: 080637687  
-Email: philip.schmitt at outlook.com
-
-## Responsible for content
-Philip Schmitt  
-Bahnhofstraße 16  
-83620 Feldkirchen-Westerham
+Email: philip.schmitt at outlook.com  
+Twitter: https://twitter.com/philipschm1tt  
+LinkedIn: https://www.linkedin.com/in/philipschm1tt
