@@ -1,11 +1,10 @@
 ---
 const today = new Date();
-import { ME } from "../config";
+import { ME } from '../config';
 ---
 
 <footer>
-	&copy; {today.getFullYear()}
-	{ME}. All rights reserved.
+	&copy; {today.getFullYear()} {ME}. All rights reserved.
 </footer>
 <style>
 	footer {
@@ -13,10 +12,3 @@ import { ME } from "../config";
 		text-align: center;
 	}
 </style>
-<!-- Cloudflare Web Analytics -->
-<script
-	defer
-	src="https://static.cloudflareinsights.com/beacon.min.js"
-	data-cf-beacon="{'token': 'b298a2c772c449a4bcf4ba8001d7bc1a'}"
-></script>
-<!-- End Cloudflare Web Analytics -->
