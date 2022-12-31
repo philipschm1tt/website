@@ -22,7 +22,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "src/pages/blog",
         fields: [
           {
             type: "string",
@@ -32,9 +32,25 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "rich-text",
-            name: "body",
+            label: 'Tags',
+            name: 'tags',
+            type: 'string',
+            list: true,
+          },
+          {
+            label: "Publishing date",
+            name: "pubDate",
+            type: "datetime",
+          },
+          {
+            label: 'Hero image',
+            name: 'heroImage',
+            type: 'image',
+          },
+          {
             label: "Body",
+            name: "body",
+            type: "rich-text",
             isBody: true,
           },
         ],

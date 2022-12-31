@@ -4,6 +4,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "dev-tina": "tinacms dev -c \"astro dev\"",
+    "start-tina": "tinacms build && astro dev",
+    "build-tina": "tinacms build && astro build",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
