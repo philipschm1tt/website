@@ -1,6 +1,9 @@
 # build output
 dist/
 
+# temporary files
+temp/
+
 # dependencies
 node_modules/
 
