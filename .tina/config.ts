@@ -32,6 +32,11 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "subheading",
+            label: "Subheading",
+          },
+          {
             label: 'Tags',
             name: 'tags',
             type: 'string',
