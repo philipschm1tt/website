@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Starting a Blog"
 subheading: "On Technology and Other Nerdy Shit"
-description: "Initial blog post"
+description: "The one in which I tell you that I'm starting a blog."
 pubDate: "2023-01-01"
 tags:
   - blog
