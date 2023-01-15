@@ -63,5 +63,5 @@ jobs:
       - run: echo "TODO"
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}
+          ls -R "${{ github.workspace }}/dist"
       - run: echo "🍏 This job's status is ${{ job.status }}."
