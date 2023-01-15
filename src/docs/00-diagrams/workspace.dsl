@@ -42,7 +42,7 @@ workspace "Website" {
             }
         }
 
-        container internetBankingSystem "Containers" {
+        container website "Containers" {
             include *
             animation {
                 reader
@@ -51,7 +51,7 @@ workspace "Website" {
             }
         }
 
-        deployment internetBankingSystem "Live" "LiveDeployment" {
+        deployment website "Live" "LiveDeployment" {
             include *
             animation {
                 liveStaticFilesInstance
