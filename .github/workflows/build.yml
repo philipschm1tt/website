@@ -1,0 +1,36 @@
+name: Build Website
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  # https://github.com/withastro/action/blob/main/action.yml  
+  build-website:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Build Astro
+      - name: Checkout your repository using git
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "npm"
+      - name: Install dependencies
+        shell: "bash"
+        run: |
+          npm install
+      - name: Build website
+        shell: "bash"
+        run: |
+          npm run build
+
+      # https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/
+      # 2. Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: "personal-website"
+          directory: "dist"
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
