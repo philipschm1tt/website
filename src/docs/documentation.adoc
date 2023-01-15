@@ -1,0 +1,26 @@
+:toc-title: Table of Contents
+:toc:
+//:imagesdir: ../../public
+
+:numbered:
+
+<<<<
+// 1. Context
+include::01-context.adoc[]
+
+<<<<
+// 2. Containers
+include::02-containers.adoc[]
+
+<<<<
+// 3. Decision Log
+include::03-decision-log.adoc[]
+
+<<<
+include::03-decision-log/0001-static-website.adoc[leveloffset=+2]
+
+<<<
+include::03-decision-log/0002-content-in-git.adoc[leveloffset=+2]
+
+<<<
+include::03-decision-log/0003-astro-on-cloudflare.adoc[leveloffset=+2]
