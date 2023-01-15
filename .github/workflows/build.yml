@@ -26,6 +26,8 @@ jobs:
       # 2. Build architecture documentation
       - name: Make directory for plantUML diagrams
         run: mkdir -p dist/diagrams
+      - name: Make directory for diagrams
+        run: mkdir -p public/diagrams
       - name: Generate plantUML diagrams from structurizr
         run: |
           docker run --rm \
@@ -33,14 +35,12 @@ jobs:
           -w /root/data \
           structurizr/cli:latest \
           export -f plantuml/c4plantuml -w "/root/data/src/docs/00-diagrams/workspace.dsl" -o "/root/data/dist/diagrams"
-      - name: Make directory for diagrams
-        run: mkdir -p public/diagrams
       - name: Render plantUML diagrams
         run: |
           docker run --rm \
           -v "${PWD}":/root/data \
           -w /root/data \
-          plantuml/plantuml -tsvg "dist/diagrams/*.puml" -o "public/diagrams"
+          plantuml/plantuml -tsvg "dist/diagrams/*.puml" -o "./public/diagrams"
       - name: Copy asciidoc to /dist
         run: mkdir -p dist/diagrams && cp -r src/docs dist/
       - name: Convert asciidoc documentation to HTML
