@@ -4,9 +4,9 @@ on: [push]
 jobs:
   # https://github.com/withastro/action/blob/main/action.yml  
   build-website:
-    name: "Build Astro"
     runs-on: ubuntu-latest
     steps:
+      # 1. Build Astro
       - name: Checkout your repository using git
         uses: actions/checkout@v3
       - name: Setup Node
@@ -14,52 +14,43 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
-      - name: Install
+      - name: Install dependencies
         shell: "bash"
         run: |
           npm install
-      - name: Build
+      - name: Build website
         shell: "bash"
         run: |
           npm run build
 
-  build-architecture-documentation:
-    name: "Build architecture documentation"
-    runs-on: ubuntu-latest
-    needs: build-website
-    steps:
-    - uses: actions/checkout@v3
-    - name: Make directory for plantUML diagrams
-      run: mkdir -p dist/diagrams
-    - name: Generate plantUML diagrams from structurizr
-      run: |
-        docker run --rm \
-        -v "${PWD}":/root/data \
-        -w /root/data \
-        structurizr/cli:latest \
-        export -f plantuml/c4plantuml -w "/root/data/src/docs/00-diagrams/workspace.dsl" -o "/root/data/dist/diagrams"
-    - name: Make directory for diagrams
-      run: mkdir -p public/diagrams
-    - name: Render plantUML diagrams
-      run: |
-        docker run --rm \
-        -v "${PWD}":/root/data \
-        -w /root/data \
-        plantuml/plantuml -tsvg "dist/diagrams/*.puml" -o "public/diagrams"
-    - name: Copy asciidoc to /dist
-      run: mkdir -p dist/diagrams && cp -r src/docs dist/
-    - name: Convert asciidoc documentation to HTML
-      run: |
-        docker run --rm \
-        -v "${PWD}":/root/data \
-        -w /root/data \
-        asciidoctor/docker-asciidoctor asciidoctor "dist/docs/documentation.adoc"
+      # 2. Build architecture documentation
+      - name: Make directory for plantUML diagrams
+        run: mkdir -p dist/diagrams
+      - name: Generate plantUML diagrams from structurizr
+        run: |
+          docker run --rm \
+          -v "${PWD}":/root/data \
+          -w /root/data \
+          structurizr/cli:latest \
+          export -f plantuml/c4plantuml -w "/root/data/src/docs/00-diagrams/workspace.dsl" -o "/root/data/dist/diagrams"
+      - name: Make directory for diagrams
+        run: mkdir -p public/diagrams
+      - name: Render plantUML diagrams
+        run: |
+          docker run --rm \
+          -v "${PWD}":/root/data \
+          -w /root/data \
+          plantuml/plantuml -tsvg "dist/diagrams/*.puml" -o "public/diagrams"
+      - name: Copy asciidoc to /dist
+        run: mkdir -p dist/diagrams && cp -r src/docs dist/
+      - name: Convert asciidoc documentation to HTML
+        run: |
+          docker run --rm \
+          -v "${PWD}":/root/data \
+          -w /root/data \
+          asciidoctor/docker-asciidoctor asciidoctor "dist/docs/documentation.adoc"
 
-  deploy-cloudflare-pages:
-    name: "Deploy to Cloudflare Pages"
-    needs: build-architecture-documentation
-    runs-on: ubuntu-latest
-    steps:
+      # 3. Deploy to Cloudflare Pages
       - run: echo "TODO"
       - name: List files in the repository
         run: |
