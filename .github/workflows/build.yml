@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "16"
           cache: "npm"
       - name: Install dependencies
         shell: "bash"
@@ -24,8 +24,6 @@ jobs:
           npm run build
 
       # 2. Build architecture documentation
-      - name: Make directory for plantUML diagrams
-        run: mkdir -p dist/diagrams
       - name: Copy docs to /dist
         run: cp -r src/docs dist/
       - name: Generate plantUML diagrams from structurizr
@@ -48,9 +46,14 @@ jobs:
           -w /root/data \
           asciidoctor/docker-asciidoctor asciidoctor "dist/docs/documentation.adoc"
 
+      # https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/
       # 3. Deploy to Cloudflare Pages
-      - run: echo "TODO"
-      - name: List files in the repository
-        run: |
-          ls -R "${{ github.workspace }}/dist"
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: "personal-website"
+          directory: "dist"
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
