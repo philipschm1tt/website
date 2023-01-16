@@ -13,14 +13,18 @@ include::01-context.adoc[]
 include::02-containers.adoc[]
 
 <<<<
-// 3. Decision Log
-include::03-decision-log.adoc[]
+// 3. Deployment
+include::03-deployment.adoc[]
+
+<<<<
+// 4. Decision Log
+include::04-decision-log.adoc[]
 
 <<<
-include::03-decision-log/0001-static-website.adoc[leveloffset=+2]
+include::04-decision-log/0001-static-website.adoc[leveloffset=+2]
 
 <<<
-include::03-decision-log/0002-content-in-git.adoc[leveloffset=+2]
+include::04-decision-log/0002-content-in-git.adoc[leveloffset=+2]
 
 <<<
-include::03-decision-log/0003-astro-on-cloudflare.adoc[leveloffset=+2]
+include::04-decision-log/0003-astro-on-cloudflare.adoc[leveloffset=+2]
