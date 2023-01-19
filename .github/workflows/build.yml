@@ -23,8 +23,31 @@ jobs:
         run: |
           npm run build
 
+      # 2. Build architecture documentation
+      - name: Copy docs to /dist
+        run: cp -r src/docs dist/
+      - name: Generate plantUML diagrams from structurizr
+        run: |
+          docker run --rm \
+          -v "${PWD}":/root/data \
+          -w /root/data \
+          structurizr/cli:latest \
+          export -f plantuml/c4plantuml -w "/root/data/dist/docs/00-diagrams/workspace.dsl"
+      - name: Render plantUML diagrams
+        run: |
+          docker run --rm \
+          -v "${PWD}":/root/data \
+          -w /root/data \
+          plantuml/plantuml -tsvg "dist/docs/00-diagrams/*.puml"
+      - name: Convert asciidoc documentation to HTML
+        run: |
+          docker run --rm \
+          -v "${PWD}":/root/data \
+          -w /root/data \
+          asciidoctor/docker-asciidoctor asciidoctor "dist/docs/documentation.adoc"
+
       # https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/
-      # 2. Deploy to Cloudflare Pages
+      # 3. Deploy to Cloudflare Pages
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
