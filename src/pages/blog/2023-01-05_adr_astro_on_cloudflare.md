@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Building a Blog: ADR 3 – Astro on Cloudflare"
-subheading: "\"Newer is Always Better\""
+subheading: "\"New is always better\""
 description: "The one in which I decide to build this website with Astro and host it on Cloudflare Pages."
 pubDate: "2023-01-05"
 tags:
