@@ -1,0 +1,85 @@
+= ADR 4 – Documentation as Code
+
+Date: 2023-01-23
+
+== Status
+
+Accepted
+
+== Context
+
+=== Lightweight Architecture Documentation
+
+[quote, Michael Nygard, Documenting Architecture Decisions]
+____
+Large documents are never kept up to date. +
+Small, modular documents have at least a chance at being updated.footnote:[Michael Nygard https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions[Documenting Architecture Decisions]]
+____
+
+
+Software systems typically benefit from some level of documentation.
+For most systems, the sweet spot is lightweight documentation that you can create and maintain with relatively low effort.
+
+*Architecture Decision Records (ADRs)* document significant design decisions for a system. They record the decisions with their context and motivations at the time the decision is made. They are immutable – they do not have to be updated, but they might be superseded by later decisions.footnote:[Michael Nygard https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions[Documenting Architecture Decisions]]footnote:[Thoughtworks Technology Radar https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records[Lightweight Architecture Decision Records]]
+
+*C4 Model Diagrams* capture the high-level architecture of a system. They contain enough detail to get an overview of the system without further explanations: they contain the descriptions of the building blocks and their relations, as well as information about the used technologies.footnote:[link:/blog/2023-01-21_c4_model_diagrams/[C4 Model Architecture Diagrams]]
+
+*arc42* footnote:[Gernot Starke, Peter Hruschka https://arc42.org/overview[arc42]] and *SA4D* footnote:[Simon Brown https://softwarearchitecturefordevelopers.com[Software Architecture
+for Developers]] propose templates for pragmatic architecture documentation and can be tailored to your needs.
+
+=== Documentation as Code
+
+The idea of _documentation as code_ is to maintain the documentation together with the code in version control.
+The developers can work on the documentation and code in their IDE with little friction from switching tools.
+The documentation can be built and deployed to the desired format and location much like the application itself.footnote:[Gernot Starke, Ralf D. Müller https://docs-as-co.de[Documentation As Code]]
+
+*AsciiDoc* and *Markdown* are popular markup languages for writing texts in a plain text format with special syntax for formatting, layout, links, and more. The two formats are comparable, but for documentation it helps that AsciiDoc is standardized and more exensible than Markdown. footnote:[Eric Holscher https://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/[Why You Shouldn’t Use “Markdown” for Documentation]]
+footnote:[Seth Kenlon https://opensource.com/article/22/8/drop-markdown-asciidoc[Try AsciiDoc instead of Markdown]]
+
+[quote, Eric Holscher, Why You Shouldn’t Use “Markdown” for Documentation]
+____
+Markdown is a concept more than it is an implementation. It generally means 
+“a set of incompatible extensions to something that looks kinda like Markdown”. When you are trying to author large sets of documents, it isn’t the correct tool.footnote:[Eric Holscher https://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/[Why You Shouldn’t Use “Markdown” for Documentation]]
+____
+
+Tools like *AsciiDoctor* footnote:[https://asciidoctor.org[Asciidoctor]] and *docToolChain* footnote:[http://doctoolchain.org[docToolChain]] can convert the plain text files to formats like PDF or HTML, or publish them to a wiki.
+
+*Structurizr* footnote:[Simon Brown https://structurizr.com[Structurizr]] and *PlantUML* footnote:[https://plantuml.com[PlantUML]] are two options for generating diagrams from plain-text. PlantUML is more popular and supports more types of diagrams. However, Structurizr can generate multiple diagrams from a single model of the system.footnote:[link:/blog/2023-01-22_diagrams_as_code/[Diagrams as Code 2.0]]
+
+=== Build Process
+
+I use *Cloudflare Pages* to build and deploy this website.
+Like most platforms for static websites, the Page is connected to GitHub.
+On pushing changes to the repository, Cloudflare Pages automatically builds and deployes the website. Changes to non-main branches are deployed to a preview URL.footnote:[https://pages.cloudflare.com[Cloudflare Pages]]
+
+With the GitHub integration, Cloudflare Pages lets you configure a short build command like `npm run build` that it executes for every build. It supports various technologies including Node.js, Python, Ruby, and Java 8.footnote:[Cloudflare Pages https://developers.cloudflare.com/pages/platform/build-configuration/[Build configuration]]
+
+To generate documentation with every build, you would have to include this in the short build command. Potentially, the build command could execute a shell script. The documentation of the build configuration does not mention support for executing docker containers.
+
+As an alternative to the git integration, Cloudflare Pages offers a *Direct Upload* capability. You can build the static website using any build setup, and then upload the static files to Cloudflare Pages. This gives you full flexibility for the build pipeline and allows you to use more elaborate CI/CD processes – like including a step to generate documentation.footnote:[Cloudflare Pages https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/[Use Direct Upload with continuous integration]]
+
+*GitHub Actions* footnote:[GitHub https://github.com/features/actions[GitHub Actions]] is GitHub's integrated CI/CD platform.
+GitHub offer 2,000 CI/CD minutes per month for free for public repositoriesfootnote:[GitHub https://github.com/pricing[GitHub Pricing]].
+Actions allows you to run docker containers within a workflow – for exampe to render diagrams.
+Cloudflare Pages provide a GitHub Action for their Direct Upload featurefootnote:[GitHub https://github.com/cloudflare/pages-action[Clougflare Pages GitHub Action]].
+
+=== Goals and Principles
+
+My top quality goals for this website are Performance Efficiency, Reliability, and Portability. One of my principles is to treat this website as a playground for learning.footnote:[link:/blog/2023-01-02_quality_goals/[Building a Blog: Quality Goals]]
+
+## Decision
+
+I will implement documentation as code. +
+I will use AsciiDoc and Structurizr for the documentation. +
+I will use GitHub Actions to build and deploy the website (including documentation) to Cloudflare Pages via Direct Upload.
+
+## Consequences
+
+Using documentation as code, I can maintain the documentation together with the code and blog posts – versioned and using the same editor for everything.
+I can make the documentation available as content of the website.
+
+The change to documentation as code with a CI/CD process changes the deployment process significantly. This could affect portability.
+On the one hand, it improves portability: the static files are built independent from Cloudflare and could be hosted anywhere on the internet.
+On the other hand, competing platforms for hosting static websites may not offer a comparable direct upload capability. So the documentation may not be easy to port to another platform, but the rest of the website could be easily built using Netfliy, Vercel, and others.
+
+Following the principle to use the blog as playground for learning, this decision will allow me to gain some experience with AsciiDoc and GitHub Actions.

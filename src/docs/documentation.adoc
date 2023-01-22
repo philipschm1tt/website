@@ -28,3 +28,6 @@ include::04-decision-log/0002-content-in-git.adoc[leveloffset=+2]
 
 <<<
 include::04-decision-log/0003-astro-on-cloudflare.adoc[leveloffset=+2]
+
+<<<
+include::04-decision-log/0004-documentation-as-code.adoc[leveloffset=+2]

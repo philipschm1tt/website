@@ -8,7 +8,7 @@ Accepted
 
 == Context
 
-I will build this blog as a static website (see xref:0001-static-website.adoc)[ADR 1]).
+I will build this blog as a static website (see xref:0001-static-website.adoc)[ADR 1].
 Blog posts require formatted text content and assets like images.
 That content has to be stored somewhere.
 
