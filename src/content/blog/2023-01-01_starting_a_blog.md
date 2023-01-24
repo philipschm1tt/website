@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Starting a Blog"
 subheading: "On Technology and Other Nerdy Shit"
 description: "The one in which I tell you that I'm starting a blog."

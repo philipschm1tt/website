@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Building a Blog: ADR 4 – Documentation as Code"
 subheading: "From AsciiDoc, Structurizr, and GitHub Actions"
 description: "The one in which I decide to build documentation with AsciiDoc and Structurizr from GitHub Actions"

@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Building a Blog: Quality Goals"
 subheading: "The Foundation for Architecture Decisions"
 description: "The one in which I describe the architecture goals of the website."

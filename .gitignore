@@ -1,5 +1,7 @@
 # build output
 dist/
+# generated types
+.astro/
 
 # temporary files
 temp/

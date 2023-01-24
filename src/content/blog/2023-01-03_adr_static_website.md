@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Building a Blog: ADR 1 – Static Website"
 subheading: "This Website is Pretty Basic"
 description: "The one in which I decide to build the blog as a static website."

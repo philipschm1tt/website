@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "C4 Model Architecture Diagrams"
 subheading: "Good architecture diagrams according to Simon Brown"
 description: "The one in which I show you the best approach to visualize high-level system architecture."

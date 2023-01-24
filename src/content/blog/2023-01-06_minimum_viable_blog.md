@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Building a Blog: Minimum Viable Blog"
 subheading: "\"Start small, start now\""
 description: "The one in which starting a blog turns out to be trivial."

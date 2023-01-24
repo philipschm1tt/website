@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Building a Blog: ADR 2 – Content in Git"
 subheading: "Markdown is Fine"
 description: "The one in which I decide between markdown and CMS-as-a-service."

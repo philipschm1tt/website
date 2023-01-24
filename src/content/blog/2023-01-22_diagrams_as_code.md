@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/BlogPost.astro"
 title: "Diagrams as Code 2.0"
 subheading: "With Structurizr by Simon Brown"
 description: "The one in which I show you the best way to create architecture diagrams."
@@ -7,8 +6,6 @@ pubDate: "2023-01-22"
 tags:
   - architecture
 ---
-
-## Diagrams as Code 2.0
 
 > * Diagrams as code 1.0: you write diagram definitions by hand
 > * Diagrams as code 2.0: diagram definitions are generated automatically, by tooling, based upon views of a model
