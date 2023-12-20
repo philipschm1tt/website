@@ -14,7 +14,7 @@ How good is the following whiteboard diagram of the Twitter architecture?[^1]
 
 [^1]: Twitter [whiteboard diagram](https://twitter.com/elonmusk/status/1593899029531803649)
 
-[![Whiteboard diagram with 20+ boxes and 20+ arrows of at least two types](/twitter_architecture_diagram.jpg#centered_bordered)](https://twitter.com/elonmusk/status/1593899029531803649)
+[![Whiteboard diagram with 20+ boxes and 20+ arrows of at least two types](./images/twitter_architecture_diagram.jpg)](https://twitter.com/elonmusk/status/1593899029531803649)
 
 Simon Brown compiled a checklist for architecture diagrams[^2] – let's apply it:
 
@@ -59,7 +59,7 @@ Simon Brown's C4 Model for visualizing software architecture uses a hierarchy of
 - The third C – Components – zooms into one deployment unit and visualizes its logical components.
 - The fourth C – Code – zooms into one component and show a classic class diagram of the component. [^3]
 
-[![Context, Containers, Components, Code – zoom in more and more](/c4-overview.png#centered_bordered)](https://c4model.com)
+[![Context, Containers, Components, Code – zoom in more and more](./images/c4-overview.png)](https://c4model.com)
 
 [^3]: Simon Brown, c4model.com, [The C4 model for visualising software architecture](https://c4model.com)
 
@@ -68,7 +68,7 @@ Simon Brown's C4 Model for visualizing software architecture uses a hierarchy of
 The System Context diagram at level 1 shows users, use cases, and how the system relates to other systems.
 The descriptions of the systems and users, together with the labels for the relations set it apart from most diagrams.
 
-![System context diagram of this blog: a hypothetical reader reads blog posts on the website, while I write blog posts from time to time.](/c4-website-context.svg#centered)
+![System context diagram of this blog: a hypothetical reader reads blog posts on the website, while I write blog posts from time to time.](./images/c4-website-context.svg)
 
 ### Level 2
 
@@ -87,7 +87,7 @@ The diagram includes  technology choices.
 Compared to other types of diagrams, the vocabulary is simple.
 There are no different types of arrows or arrow heads, for example.
 
-![Container diagram of this blog: static files (HTML, CSS, JS) served from static files host via HTTPS.](/c4-website-containers.svg#centered)
+![Container diagram of this blog: static files (HTML, CSS, JS) served from static files host via HTTPS.](./images/c4-website-containers.svg)
 
 ### Level 3 and 4?
 

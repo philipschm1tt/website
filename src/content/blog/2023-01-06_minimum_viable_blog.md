@@ -12,7 +12,7 @@ To resist that temptation, I want to start with the "minimum viable blog".
 I want to set up the blog with little effort and (probably) iterate later.
 In this post, I describe the least I could do to get this thing up and running :)
 
-[![Poster by Erik Spiekermann with the text "Better done than perfect" that includes a typo](/betterdone_rev8.jpg#centered_bordered)](https://shop.p98a.com/collections/posters/products/p98a-better-done-than-perfct-7th-edition)
+[![Poster by Erik Spiekermann with the text "Better done than perfect" that includes a typo](./images/betterdone_rev8.jpg)](https://shop.p98a.com/collections/posters/products/p98a-better-done-than-perfct-7th-edition)
 
 ## Astro Blog Starter
 
@@ -121,9 +121,9 @@ Rough steps:
 3. Configure the DNS records in the Cloudflare dashboard to point at your Cloudflare Pages website
 4. Configure the Cloudflare nameservers for your domain where you bought the domain
 
-![The Cloudflare DNS Records UI with the Cloudflare Pages URL as target of the custom domain](/cloudflare_dns_records.png#centered)
+![The Cloudflare DNS Records UI with the Cloudflare Pages URL as target of the custom domain](./images/cloudflare_dns_records.png)
 
-![The domain nameserver configuration with the Cloudflare nameservers](/domain_nameserver.png#centered)
+![The domain nameserver configuration with the Cloudflare nameservers](./images/domain_nameserver.png)
 
 ## Step 5: Profit
 

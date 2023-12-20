@@ -34,7 +34,7 @@ The ISO standard defines eight quality characteristics and a number of sub-chara
 - **Maintainability:** "This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements."
 - **Portability:** "Degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another."
 
-[![The eight quality characteristics of software product quality according to ISO 25010: functional suitability, performance efficiency, compatibility, usability, reliability, security, maintainability, portability](/iso25010.png#centered)](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
+[![The eight quality characteristics of software product quality according to ISO 25010: functional suitability, performance efficiency, compatibility, usability, reliability, security, maintainability, portability](./images/iso25010.png)](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
 [^1]: [ISO 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
@@ -48,7 +48,7 @@ As per [arc42.org](https://faq.arc42.org/questions/C-10-2/)[^2]:
 > in pragmatic and informal manner, 
 > yet making the abstract notion of “quality” concrete and tangible.
 >
-> [![Quality scenario: a system gets used or is modified resulting in a response with some metrics](/quality-scenario.png)](https://faq.arc42.org/questions/C-10-2/)
+> [![Quality scenario: a system gets used or is modified resulting in a response with some metrics](./images/quality-scenario.png)](https://faq.arc42.org/questions/C-10-2/)
 >
 > - Event/stimulus: Any condition or event arriving at the system
 > - System (or part of the system) is stimulated by the event.

@@ -30,4 +30,4 @@ So here it is – my minimum viable blog.
 
 [^2]: Seth Godin, Seth's Blog, [Start small, start now](https://seths.blog/2017/12/start-small-start-now/)
 
-[![Poster by Erik Spiekermann with the text "Better done than perfect" that includes a typo](/betterdone_rev8.jpg#centered_bordered)](https://shop.p98a.com/collections/posters/products/p98a-better-done-than-perfct-7th-edition)
+[![Poster by Erik Spiekermann with the text "Better done than perfect" that includes a typo](./images/betterdone_rev8.jpg)](https://shop.p98a.com/collections/posters/products/p98a-better-done-than-perfct-7th-edition)

@@ -113,8 +113,8 @@ plantuml/plantuml -tsvg "*.puml"
 
 This results in the following diagrams:
 
-![System context diagram of this blog: a hypothetical reader reads blog posts on the website, while I write blog posts from time to time.](/c4-website-context.svg#centered)
+![System context diagram of this blog: a hypothetical reader reads blog posts on the website, while I write blog posts from time to time.](./images/c4-website-context.svg)
 
-![Container diagram of this blog: static files (HTML, CSS, JS) served from static files host via HTTPS.](/c4-website-containers.svg#centered)
+![Container diagram of this blog: static files (HTML, CSS, JS) served from static files host via HTTPS.](./images/c4-website-containers.svg)
 
 For more information on and examples from Structurizr, see [structurizr.com](https://structurizr.com) and [github.com/structurizr](https://github.com/structurizr)

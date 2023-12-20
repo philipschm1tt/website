@@ -119,7 +119,7 @@ Following the principle to use the blog as playground for learning, this decisio
 
 I deploy the documentation as HTML (generated from AsciiDoctor) with the website to [Documentation](https://www.philip-schmitt.de/docs/documentation.html).
 
-[![Screenshot of the generated HTML document for the documentation](/documentation-screenshot.jpg#centered_bordered)](https://www.philip-schmitt.de/docs/documentation.html)
+[![Screenshot of the generated HTML document for the documentation](./images/documentation-screenshot.jpg)](https://www.philip-schmitt.de/docs/documentation.html)
 
 Commits:
 
