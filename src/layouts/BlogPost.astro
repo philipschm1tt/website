@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -13,13 +14,41 @@ const { title, subheading, description, pubDate, updatedDate, heroImage } = Astr
 	<head>
 		<BaseHead title={title} description={description} />
 		<style>
-			.title {
-				font-size: 2em;
-				margin: 0.25em 0 0;
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
 			}
-			hr {
-				border-top: 1px solid #ddd;
-				margin: 1rem 0;
+			.hero-image {
+				width: 100%;
+			}
+			.hero-image img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
+			.prose {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+				color: rgb(var(--gray-dark));
+			}
+			.title {
+				margin-bottom: 1em;
+				padding: 0;
+				line-height: 1;
+			}
+			.title h1 {
+				margin: 0 0 0.5em 0;
+			}
+			.date {
+				margin-bottom: 0.5em;
+				color: rgb(var(--gray));
+			}
+			.last-updated-on {
+				font-style: italic;
 			}
 		</style>
 	</head>
@@ -28,19 +57,28 @@ const { title, subheading, description, pubDate, updatedDate, heroImage } = Astr
 		<Header />
 		<main>
 			<article>
-				{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
-				<h1 class="title">{title}</h1>
-				{subheading && 
-					<div>{subheading}</div>
-				}
-				{pubDate && <time>{pubDate}</time>}
-				{updatedDate && (
-					<div>
-						Last updated on <time>{updatedDate}</time>
+				<div class="hero-image">
+					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
+				</div>
+				<div class="prose">
+					<div class="title">
+						<div class="date">
+							{pubDate && <FormattedDate date={pubDate} />}
+							{
+								updatedDate && (
+									<div class="last-updated-on">
+										Last updated on <FormattedDate date={updatedDate} />
+									</div>
+								)
+							}
+						</div>
+						<h1>{title}</h1>
+						{subheading &&
+							<div>{subheading}</div>}
+						<hr />
 					</div>
-				)}
-				<hr />
-				<slot />
+					<slot />
+				</div>
 			</article>
 		</main>
 		<Footer />
