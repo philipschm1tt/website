@@ -14,7 +14,7 @@ I will build this blog as a static website[^1].
 Blog posts require formatted text content and assets like images.
 That content has to be stored somewhere.
 
-[^1]: [Building a Blog: ADR 1 – Static Website](/blog/2023-01-04_adr_static_website/)
+[^1]: [Building a Blog: ADR 1 – Static Website](/blog/2023-01-03_adr_static_website/)
 
 The simplest approach is to store content and assets directly in the repository.
 Text can be stored in Markdown files. Images can be stored in an assets folder.
