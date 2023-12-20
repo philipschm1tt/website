@@ -4,9 +4,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev-tina": "tinacms dev -c \"astro dev\"",
-    "start-tina": "tinacms build && astro dev",
-    "build-tina": "tinacms build && astro build",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -17,8 +14,6 @@
     "@astrojs/mdx": "^0.15.0",
     "@astrojs/rss": "^2.1.0",
     "@astrojs/sitemap": "^1.0.0",
-    "@tinacms/cli": "^1.0.5",
-    "astro": "^2.0.0",
-    "tinacms": "^1.1.2"
+    "astro": "^2.0.0"
   }
 }
