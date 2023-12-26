@@ -30,7 +30,7 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 1000px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 1em 1em;
@@ -45,20 +45,21 @@ h6 {
 	color: rgb(var(--black));
 	line-height: 1.2;
 }
+/*
+	Typographic scale: https://www.modularscale.com/?1&em&1.125
+*/
 h1 {
-	font-size: 1.6rem;
+	font-size: 1.42rem;
 	font-weight: lighter;
 }
 h2 {
-	font-size: 1.42rem;
-	font-weight: lighter;
+	font-size: 1.27rem;
 }
 h3 {
 	font-size: 1.13rem;
 }
 h4 {
-	font-size: 1.13rem;
-	font-weight: lighter;
+	font-size: 1rem;
 }
 h5 {
 	font-size: 1rem;
@@ -78,6 +79,15 @@ p {
 }
 .prose p {
 	margin-bottom: 2em;
+}
+.prose .title,
+.prose h2,
+.prose h3,
+.prose table,
+.prose p:not(:has(img)) {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
 }
 textarea {
 	width: 100%;
