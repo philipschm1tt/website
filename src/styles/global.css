@@ -84,6 +84,9 @@ p {
 .prose h2,
 .prose h3,
 .prose table,
+.prose pre,
+.prose ol,
+.prose ul,
 .prose p:not(:has(img)) {
 	width: 720px;
 	margin-left: auto;
