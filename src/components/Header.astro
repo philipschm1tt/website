@@ -1,12 +1,13 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import logo from '../assets/some-blog-logo.svg'
 ---
 
 <header>
-	<h2><a href="/">{SITE_TITLE}</a></h2>
+	<h2 class="logo"><a href="/"><img src={ logo.src } alt={ SITE_TITLE } width="340px" height="136px"></a></h2>
 	<nav>
-		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/">Home</span>
 		<HeaderLink href="https://twitter.com/philipschm1tt" target="_blank">Twitter</HeaderLink>
 		<HeaderLink href="https://www.linkedin.com/in/philipschm1tt/" target="_blank">LinkedIn</HeaderLink>
 		<HeaderLink href="/imprint">Imprint</HeaderLink>
@@ -28,14 +29,11 @@ import { SITE_TITLE } from '../consts';
 		margin: auto;
 		padding-top: 1em;
 	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
+	.logo {
+		margin-left: 0;
 	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
+	.logo img {
+		display: inline-block;
 	}
 	nav {
 		display: flex;
