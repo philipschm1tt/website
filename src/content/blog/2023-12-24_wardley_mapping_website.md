@@ -1,7 +1,7 @@
 ---
 title: "Wardley Mapping for Tech Strategy by Example"
 subheading: "A basic build vs. buy decision"
-description: "A company reflects whether to build their own company website or outsource it."
+description: "The one in which I walk you through some basic Wardley Mapping."
 pubDate: "2023-12-24"
 tags:
   - blog
