@@ -242,4 +242,10 @@ Different people or groups would arrive at different results.
 The map helps externalize ideas and opinions on the competitive environment and how it changes.
 It can help trigger valuable discussions and create alignment.
 
+> In my opinion, the most useful aspect is not the map but the process itself, especially if done with other people.
+> It's a great tool to trigger interaction and prompting questions.  
+> — <cite>Oliver Finker[^ofinker]</cite>
+
+[^ofinker]: Oliver Finker [Tweet](https://twitter.com/ofinker/status/1744450485178806371)
+
 You don't need Wardley Mapping to anticipate trends in AI and most organizations don't use Wardley Mapping to work on strategy. But it helps! Give it a try.
