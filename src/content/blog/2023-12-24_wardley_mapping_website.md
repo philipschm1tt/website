@@ -64,6 +64,11 @@ The web frontends depends on a platform. You could, for example, host a simple w
 The web design depends on the corporate identity of the company.
 I placed it slightly further to the left. That area of design goes beyond websites and may need more specialized design expertise.
 
+_What do you think?_  
+_Does that look right to you?_  
+_Where would you put "web design"?_
+_Maybe not that close to "Commodity"? Why is that?_
+
 ## Let's Outsource It
 
 It is a widespread practice to outsource the design and implementation of company websites to agencies or freelancers. These "Commodity" websites are generally not core to what the company does and needs to focus on. Companies may lack the design or technical expertise to build the website themselves. In addition, the agencies and freelancers gain efficiency from working on many similar projects for different clients.
@@ -114,6 +119,10 @@ AI code generation "competes" directly with writing code by hand and using open-
 
 I placed AI website builders in the "Custom" column. These technologies are just emerging – they are "leading edge".
 When these AI website builders evolve into the "Product" column or the "Commodity" column, you may no longer need a web developer to build a typical company website.
+
+_What do you think?_  
+_Where would you place the AI capabilities? Why?_  
+_How close do you think we are to generating our complete website from Figma?_
 
 ## Everything Evolves Through Supply and Demand Competition
 
@@ -203,6 +212,11 @@ That can lead to a race to the bottom where agencies and freelancers compete on 
 As components evolve through the four stages of evolution, companies have to deal with inertia[^climate].
 When capabilities like AI code generation become more widespread, agencies and freelancers will adapt. This can present a challenge for agencies that have been successful before AI:
 there may be resistance to change.
+
+_Looking at this landscape..._  
+_and anticipating evolution..._  
+_what should we do?_  
+_How will that impact our industry?_
 
 If an agency does not want to join the race to the bottom, they have to adapt.
 One option is to move upmarket:
