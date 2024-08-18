@@ -135,12 +135,7 @@ No need to lube them by hand.
 
 Silent switches fit the stealth theme of the keyboard.
 
-I bought 100 Penguin switches for 42 Euros.
-
 ## The Build
-
-When I received the keyboard in December 2022, I would still have to wait for more than one year for the Stealth keycaps. I did not have any keycaps with F13 and 7u space bar.
-Fortunately, the Freebird TKL also allowed the classic bottom row configuration with 6.25u space bar. So I could use the keycaps of my former office keyboard until Stealth arrived.
 
 First, I tried the popular Boba U4 silent switches to stay with the Stealth theme.
 I spent at least five hours lubing all switches by hand.
@@ -148,7 +143,6 @@ Unfortunately, I learned that I am not the biggest fans of silent switches.
 While they don't make a lot of noise, I don't like the little bit of noise they do make.
 
 I tested the switches in both the o-ring mount configuration and the top mount configuration. It pretty quick and painless to change the configuration.
-
 The top mount configuration with the POM plate had some noticeable "bounciness" / vibrations and brought out the "scratchy" sound of the silent switches.
 The o-ring mount was an improvement: stiffer, and with a more muted sound profile.
 I used this configuration for a few months but then decided to replace the silent switches.
