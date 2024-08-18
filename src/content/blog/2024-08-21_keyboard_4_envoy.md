@@ -41,7 +41,7 @@ The Envoy did well in reviews:
 > — <cite>Alexotos[^alexotos_envoy]</cite>
 
 I ordered the "mirage" blue kit (240 Euros) aluminum and POM plates (+18 Euros), as well as the foam kit (15 Euros).
-To make use of the customization options, I ordered a steel gray bottom accent (24 Euros), and a walnut wood accent (30 Euros) for the back of the board. I spent 327 Euros in total – quite a bit more than the board's entry price.
+I splurged on the customization options: I ordered a steel gray bottom accent (24 Euros), and a walnut wood accent (30 Euros) for the back of the board. I spent 327 Euros in total – quite a bit more than the board's entry price.
 
 [^mode_envoy]: Mode Designs [Mode Envoy](https://modedesigns.com/pages/envoy)
 [^alexotos_envoy]: Alexotos [Mode Envoy Review](https://www.alexotos.com/mode-envoy/)
@@ -113,6 +113,8 @@ TX AP stabilizers                                25 EUR
 
 Looks, feels, and sounds like a keyboard – would recommend!
 
+|  |  |
+| ---- | ---- |
 | Keyboard Kit   | Mode Envoy |
 | Plate material | POM |
 | Mounting style | Lattice Block mount |
