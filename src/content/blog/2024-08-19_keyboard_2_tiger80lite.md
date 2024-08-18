@@ -106,7 +106,7 @@ I chose the Owlab Tungsten switches.
 I ordered 100 of them and lubed them by hand with Krytox 205g0.
 
 To make the keyboard as different as possible from my first keyboard, I used all foams that came with the keyboard.
-A thin sheet of PE foam between the PCB and the switches filters out higher sound frequencies and leads to a "marbly" sound signature. Another piece of foam between the PCD and the plate made it a bit more convenient to insert the switches.
+A thin sheet of PE foam between the PCB and the switches filters out higher sound frequencies and leads to a "marbly" sound signature.[^pe_nearlucid][^pe_keybored] Another piece of foam between the PCB and the plate made it a bit more convenient to insert the switches.
 
 [^pe_nearlucid]: nearLucid [PE Foam Mod Explained: An Ingenious Design](https://www.youtube.com/watch?v=XnQMXVchnrU)
 
