@@ -71,8 +71,8 @@ I bought a used set of GMK WoB[^wob_matrixzj][^wob_drop] for 100 Euros.
 | Spring | 18mm |
 | Total travel distance | 3.8mm |
 
-> Cream Sodas are designed to deliver the deep bottom out we all love
-> in Ink housings and that marbly top out that graces all those boards filled with Milky switches.
+> Cream Sodas are designed to deliver the deep bottom out we all love in Ink housings 
+> and that marbly top out that graces all those boards filled with Milky switches.
 > To accentuate these sounds the Cream Soda switch has been equipped with a long pole stem
 > to bring out all the lovely goodness of these housing materials.
 > — <cite>PuNkShoO[^cream_soda_geekhack]</cite>
