@@ -74,7 +74,7 @@ Additional kits to turn a QWERTY keycap set into the German QWERTZ are often not
 |  |  |
 | ---- | ---- |
 | Keyboard kit | Freebird TKL by KeebsForAll |
-| Case | E-Coated CNC Machined 6063 Aluminum Case (black) |
+| Case | E-Coated CNC machined 6063 Aluminum Case (black) |
 | Layout | F13 TKL |
 | Typing angle | 6° |
 | Plate | POM |
