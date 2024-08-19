@@ -27,7 +27,7 @@ One proven way to discover your preferences is to spend more money and time on k
 |  |  |
 | ---- | ---- |
 | Keyboard kit | KBDfans Tiger 80 Lite |
-| Case | ABS plastic, translucent |
+| Case | ABS plastic, translucent (purple) |
 | Layout | F13 TKL |
 | Typing angle | 7° |
 | Plate | PC |
