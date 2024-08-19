@@ -26,6 +26,8 @@ I found a bargain for one of my favorite keyboard designs.
 
 The NovelKeys NK87 Aluminum Edition[^nk87_novelkeys] is a TKL keyboard kit from 2021 with a fix layout with F13 and a 7u spacebar.
 
+[^nk87_novelkeys]: NovelKeys [NovelKeys NK87 Aluminum Edition](https://novelkeys.com/collections/keyboards/products/nk87-aluminum-edition)
+
 I love the design of the NK87.
 It uses my favorite layout.
 Its shape is geometric and clean – no curves to be found.
@@ -35,13 +37,12 @@ I considered the NK87 as an alternative to the Freebird TKL when I was looking f
 Reviewers that compared the two preferred the Freebird.
 Moreover, NovelKeys did not partner with European vendors – I would have had to order from the US.
 
-The NK87 was announced at the beginning of 2021 with a pre-order price of $265.[^nk87_reddit]
+The NK87 was announced[^nk87_reddit] at the beginning of 2021 with a pre-order price of $265.
 At some point, NovelKeys made an improvement to the first batch of NK87s and sold the boards from the first revision in a clearance sale for just $75.
 A German keyboard enjoyer grabbed that chance and imported the NK87 with an extra carbon fiber plate.
 After collecting too many keyboards, he decided to part with the board and sold it to me for 70 Euros – a bargain.
 
-[^nk87_novelkeys]: NovelKeys [NovelKeys NK87 Aluminum Edition](https://novelkeys.com/collections/keyboards/products/nk87-aluminum-edition)
-[^nk87_reddit]: mgsickler on reddit.com [Introducing the NK87 - Aluminum Edition](https://www.reddit.com/r/MechanicalKeyboards/comments/m0jdf1/introducing_the_nk87_aluminum_edition_preorders/)
+[^nk87_reddit]: mgsickler on reddit.com [Introducing the NK87 Aluminum Edition](https://www.reddit.com/r/MechanicalKeyboards/comments/m0jdf1/introducing_the_nk87_aluminum_edition_preorders/)
 
 ## GMK Pulse Mitolet
 
