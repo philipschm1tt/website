@@ -46,7 +46,7 @@ Now to find a fitting keyboard kit...
 |  |  |
 | ---- | ---- |
 | Keyboard kit | Keychron Q65 |
-| Case | Anodized, sandblasted CNC Machined 6063 Aluminum Case (black) |
+| Case | Anodized, sandblasted CNC machined 6063 Aluminum Case (black) |
 | Layout | 65% + extra column with knob |
 | Typing angle | 6.5° |
 | Plate | Steel |
