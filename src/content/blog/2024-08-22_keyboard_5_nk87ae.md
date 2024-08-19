@@ -17,7 +17,7 @@ I found a bargain for one of my favorite keyboard designs.
 |  |  |
 | ---- | ---- |
 | Keyboard kit | NovelKeys NK87 Aluminum Edition |
-| Case | CNC aluminum with NovelKote (spray) coating (solar yellow) |
+| Case | CNC machined aluminum with NovelKote (spray) coating ("Solar Yellow") |
 | Layout | F13 TKL |
 | Typing angle | 8° |
 | Plate | Carbon Fiber |
@@ -124,7 +124,6 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Keycaps | GMK Pulse Mitolet |
 | Switches | KTT Matcha |
 | Foam | Silicone dampening pads |
-| Mods | - |
 | Weight | 2.29kg |
 
 I'm extremely happy with how this board turned out – especially considering the price.
