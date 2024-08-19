@@ -19,7 +19,7 @@ With the Mode Envoy, Mode enlisted vendors for an international sale for the fir
 |  |  |
 | ---- | ---- |
 | Keyboard kit | Mode Envoy |
-| Case | Anodized aluminum (mirage) |
+| Case | Anodized, CNC machined aluminum ("Mirage" blue) |
 | Layout | 65% |
 | Typing angle | 5.8° |
 | Plate | Aluminum + POM |
@@ -121,7 +121,6 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Keycaps | GMK WoB |
 | Switches | Cream Sodas |
 | Foam | PCB foam |
-| Mods | – |
 | Weight | 1.08kg |
 
 The Envoy is one of my favorite keyboards.
