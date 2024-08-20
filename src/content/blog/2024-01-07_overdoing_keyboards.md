@@ -22,7 +22,7 @@ If you are satisfied with your keyboard that's a good place to stop!
 
 Unfortunately, pre-built mechanical keyboards have not always been great.
 They have mostly used stock Cherry MX switches that don't sound or feel all that good.
-Together with bad stabilizers in larger keys like the space bar that make unwanted rattling noises.
+Together with bad stabilizers in larger keys like the spacebar that make unwanted rattling noises.
 
 <audio controls src="/media/2024-01-07_sound_ozone.mp3"></audio>
 
@@ -179,7 +179,7 @@ Going to extreme lengths, you might invest considerable effort to **"polish"** t
 ![Insalling switch films](./images/2024-01-07_switch-film.jpg)
 
 You may need to pay special attention to the **stabilizers** under the long keys.
-Especially to avoid undesired sounds on the space bar.[^alexotoslubestabilizers]
+Especially to avoid undesired sounds on the spacebar.[^alexotoslubestabilizers]
 
 [^alexotoslubestabilizers]: alexotos [How To Lube and Properly Tune Stabilizers - 2022](https://www.youtube.com/watch?v=vxHb6CJc9V8&pp=ygUNYWxleG90b3MgbHViZQ%3D%3D)
 
