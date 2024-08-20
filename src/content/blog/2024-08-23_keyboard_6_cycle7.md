@@ -138,6 +138,7 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Mounting style | Gasket mount with gasket strips |
 | Keycaps | GMK MTNU Beige |
 | Switches | HMX Xinhai 62g |
+| Stabilizers | C3 Equalz |
 | Foam | PCB foam, case foam |
 | Weight | 1.95kg |
 
