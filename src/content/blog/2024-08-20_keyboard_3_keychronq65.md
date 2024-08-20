@@ -152,6 +152,7 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Mounting style | Gasket |
 | Keycaps | GMK Mictlán |
 | Switches | Gazzew U4T |
+| Stabilizers | Staebies V2 |
 | Foam | Plate foam |
 | Mods | Factory "tape mod" |
 | Weight | 1.81kg |
