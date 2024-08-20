@@ -117,6 +117,10 @@ You can stick the tape to the bottom of the PCB to adjust the sound profile.
 Instead of the bundled tape I tried the classic tape mod approach with some painter's tape.
 I noticed that the tape did not change the sound significantly when you already used the FE foam.
 
+I used TX AP stabilizers for 1.2mm PCBs.
+I was not fully successful with tuning the stabilizers for the spacebar.
+After my great experience tuning the Staebies spacebar for my Freebird TKL, I used a leftover Staebies stabilizer for the spacebar of the Tiger80 Lite.
+
 ## The Bill
 
 ```plain
@@ -144,6 +148,7 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Mounting style | Gasket |
 | Keycaps | PBTFans BoW |
 | Switches | Owlab Tungsten |
+| Stabilizers | TX AP 1.2mm |
 | Foam | Case foam, PE foam, plate foam |
 | Mods | Tape mod |
 | Weight | 0.65kg |
