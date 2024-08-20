@@ -56,7 +56,7 @@ After some delays, it took a bit over two years from the time of purchase to rec
 My ideal keyboard layout for work and programming is a "tenkeyless" TKL layout.
 I don't need the numbers block on the right and I prefer the aesthetics without it.
 
-I prefer the symmetry of the "Tsangan" bottom row with a 7-unit wide space bar and three keys on each side.
+I prefer the symmetry of the "Tsangan" bottom row with a 7-unit wide spacebar and three keys on each side.
 In addition, I favor layouts with an F13 key for added symmetry and consistent spacing.
 
 ![TKL layouts](./images/2024-08-18_tkl_layouts.jpg)
@@ -89,7 +89,7 @@ It shows it premium aspirations in more subtle ways:
 with the nicely beveled edges on the top case and the curve in the side profile that make the board easier to pick up.
 
 The Freebird TKL offers a good amount of layout options with the hot-swap PCB.
-You can choose between a regular bottom row with a 6.25u space bar and the "Tsangan" bottom row with a 7u space bar.
+You can choose between a regular bottom row with a 6.25u spacebar and the "Tsangan" bottom row with a 7u spacebar.
 You can choose between a regular caps lock key, or a stepped caps lock key.
 You can opt for split backspace and right shift keys.
 
@@ -192,6 +192,8 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Mounting style | O-ring mount |
 | Keycaps | GMK Stealth |
 | Switches | Akko Penguin |
+| Stabilizers | Staebies V2 |
+| Foam | – |
 | Weight | 1.68kg |
 
 The keyboard turned out great.
