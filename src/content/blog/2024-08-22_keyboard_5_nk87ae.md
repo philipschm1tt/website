@@ -123,6 +123,7 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Mounting style | Top/Tray mount |
 | Keycaps | GMK Pulse Mitolet |
 | Switches | KTT Matcha |
+| Stabilizers | Cherry + C3 |
 | Foam | Silicone dampening pads |
 | Weight | 2.29kg |
 
