@@ -23,7 +23,7 @@ With the Mode Envoy, Mode enlisted vendors for an international sale for the fir
 | Layout | 65% |
 | Typing angle | 5.8° |
 | Plate | Aluminum + POM |
-| Mounting options | Lattice Block Mount |
+| Mounting options | Lattice Block Mount with two kinds of blocks|
 | Lights | – |
 
 The Mode Envoy[^mode_envoy] is a 65% "budget premium" kit by Mode Designs.
@@ -120,6 +120,7 @@ Looks, feels, and sounds like a keyboard – would recommend!
 | Mounting style | Lattice Block mount |
 | Keycaps | GMK WoB |
 | Switches | Cream Sodas |
+| Stabilizers | TX AP |
 | Foam | PCB foam |
 | Weight | 1.08kg |
 
