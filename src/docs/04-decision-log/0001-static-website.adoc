@@ -16,7 +16,7 @@ Or you could build a website yourself.
 
 === Goals and Principles
 
-My top quality goals for this website are Performance Efficiency, Reliability, and Portability (see https://philip-schmitt.de/blog/2023-01-02_quality_goals/[Building a Blog: Quality Goals]).
+My top quality goals for this website are Performance Efficiency, Reliability, and Portability (see https://schmitthub.de/blog/2023-01-02_quality_goals/[Building a Blog: Quality Goals]).
 
 === Make or "Buy"
 

@@ -1,14 +1,14 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
-import logo from '../assets/some-blog-logo.svg'
+import { SITE_NAME } from '../consts';
+import logo from '../assets/schmitthub_logo.svg'
 ---
 
 <header>
-	<h2 class="logo"><a href="/"><img src={ logo.src } alt={ SITE_TITLE } width="340px" height="136px"></a></h2>
+	<h2 class="logo"><a href="/"><img src={ logo.src } alt={ SITE_NAME } width="238px" height="50px"></a></h2>
 	<nav>
 		<HeaderLink href="/">Home</span>
-		<HeaderLink href="https://twitter.com/philipschm1tt" target="_blank">Twitter</HeaderLink>
+		<HeaderLink href="https://bsky.app/profile/philipschm1tt.de" target="_blank">Bluesky</HeaderLink>
 		<HeaderLink href="https://www.linkedin.com/in/philipschm1tt/" target="_blank">LinkedIn</HeaderLink>
 		<HeaderLink href="/imprint">Imprint</HeaderLink>
 		<HeaderLink href="/privacy">Privacy</HeaderLink>
@@ -28,6 +28,9 @@ import logo from '../assets/some-blog-logo.svg'
 		max-width: calc(100% - 2em);
 		margin: auto;
 		padding-top: 1em;
+	}
+	h2 {
+		display: inline-block;
 	}
 	.logo {
 		margin-left: 0;

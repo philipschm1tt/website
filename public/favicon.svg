@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 134 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><rect x="0" y="0" width="133.333" height="133.333" style="fill:#ff9000;"/><path d="M58.177,38.114c-6.207,-5.705 -15.216,-8.708 -23.233,-8.708c-13.23,0 -27.445,6.506 -27.445,22.23c0,12.826 9.11,17.436 18.121,20.342c9.324,3.006 14.738,4.709 14.738,10.12c-0,5.712 -4.612,7.716 -9.825,7.716c-5.615,0 -11.922,-3.206 -15.326,-7.515l-11.214,11.419c6.209,6.506 16.42,10.209 26.54,10.209c14.029,-0 27.143,-7.307 27.143,-23.632c0,-14.129 -12.413,-18.238 -22.03,-21.344c-6.718,-2.105 -10.929,-3.608 -10.929,-8.317c0,-5.612 5.515,-7.115 9.926,-7.115c4.412,0 9.719,2.405 12.622,6.112l10.912,-11.517Z" style="fill-rule:nonzero;"/><path d="M124.896,102.124l0,-70.914l-17.118,-0l0,26.848l-27.662,-0l0,-26.848l-17.118,-0l0,70.914l17.118,-0l0,-29.653l27.662,-0l0,29.653l17.118,-0Z" style="fill-rule:nonzero;"/></svg>

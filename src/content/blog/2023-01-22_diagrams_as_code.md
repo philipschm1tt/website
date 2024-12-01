@@ -80,7 +80,7 @@ workspace "Website" {
         philip -> website "Writes blog posts (in theory, from time to time)"
 
         # relationships to/from containers
-        reader -> staticFilesHost "Visits philip-schmitt.de using" "HTTPS"
+        reader -> staticFilesHost "Visits schmitthub.de using" "HTTPS"
         staticFilesHost -> staticFiles "Delivers to the customer's web browser"
     }
 
