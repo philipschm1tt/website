@@ -6,8 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://schmitthub.de',
-	integrations: [mdx(), sitemap()],
-	legacy: {
-    collections: true
-  }
+	integrations: [mdx(), sitemap()]
 });

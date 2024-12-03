@@ -49,7 +49,7 @@ const blogPosts = (await getCollection('blog')).sort(
 										day: 'numeric',
 									})}
 								</time>
-								<a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+								<a href={`/blog/${post.id}/`}>{post.data.title}</a>
 							</li>
 						))
 					}
