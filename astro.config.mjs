@@ -7,4 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://schmitthub.de',
 	integrations: [mdx(), sitemap()],
+	legacy: {
+    collections: true
+  }
 });
