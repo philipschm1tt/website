@@ -1,5 +1,5 @@
 ---
-title: "Keyboard 6: TKD Cycle7 + GMK MTNU Beige + HMX Xinhai"
+title: "Keyboard 6: TKD Cycle7 + GMK MTNU Beige"
 subheading: "TKD sells more for less"
 description: "The one in which I buy the 'must-have' keyboard of 2023."
 pubDate: "2024-08-23"
@@ -164,3 +164,52 @@ In terms of the sound, the MTNU keycaps and foams tame the high pitch of the Xin
 The board is maybe a bit louder than I'd like but it sounds good.
 
 ![TKD Cycle7 "Fog" with sandblasted weight](./images/2024-08-23_cycle7_mtnu_bottom.jpg)
+
+## 2024-12-26: Changed switches to Vertex V1
+
+![Switch test with HMX Macchiato, Keygeek Y3, Vertex V1, Gateron Oil Kings, HMX Xinhai, Gateron Cream Soda, Sarokeys Strawberry Wine, Owlab Tungsten, Haimu Trash, MMD Princess Tactile, Cherry Nixies](./images/2024-12-26_cycle7_switch_test.jpg)
+
+While the Xinhais are great, I wanted to try something more subtle with a lower volume and pitch.
+After an exhaustive test with around ten types of switches, I picked the Vertex V1s.
+I've wanted to put them in a board for some time.
+
+### Vertex V1
+
+![Vertex V1 product photo](./images/2024-12-26_vertex_v1.webp)
+
+|  |  |
+| ---- | ---- |
+| Switch type | Linear |
+| Top housing material | Nylon PA66 |
+| Bottom housing material | Nylon PA66 |
+| Stem material | POM |
+| Spring | 15mm non-gold plated stainless steel |
+| Operating force | 50gf |
+| Bottom-out force | 62gf |
+| Pre-travel distance | 2.0mm |
+| Total travel distance | 4.0mm |
+
+The Vertex V1s use a classic design with Nylon housing and POM stem.
+They produce a deep sound and low to moderate volume.
+I bought the V1s for 45 Euros in a pack of 110.
+
+The Vertex V1s are not flawless like the Xinhais: they produce some subtle leaf noises.
+But in my current configuration with the foams and the MTNU switches, they shine.
+
+### The Updated Result
+
+<figure>
+  <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
+  <audio controls src="/media/2024-12-26_keyboard_cycle7_v1.mp3"></audio>
+</figure>
+
+|  |  |
+| ---- | ---- |
+| Keyboard Kit   | TKD Cycle7 |
+| Plate material | Aluminum |
+| Mounting style | Gasket mount with gasket strips |
+| Keycaps | GMK MTNU Beige |
+| Switches | Vertex V1 |
+| Stabilizers | C3 Equalz |
+| Foam | PCB foam, case foam |
+| Weight | 1.95kg |
