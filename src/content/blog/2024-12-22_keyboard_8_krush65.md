@@ -1,5 +1,5 @@
 ---
-title: "Keyboard 8: Krush65 + XMI Vintage Beige + SW x Haimu MP Tactiles"
+title: "Keyboard 8: Krush65 + XMI Vintage Beige"
 subheading: "Classic style with cream + copper"
 description: "The one in which I convince myself that an 8th expensive keyboard is a bargain."
 pubDate: "2024-12-22"
@@ -164,3 +164,73 @@ The case shines with its smooth e-coating, the heavy copper weight, and copper�
 The MP Tactiles are as good as I had hoped; they feel and sound great and complement the keyboard.
 
 ![Krush65 RGB](./images/2024-12-22_krush65_xmi_2.jpg)
+
+## 2024-12-29: Changed switches to Cherry MX Black Clear-top (Nixies)
+
+![Spring swap between Cherry Nixies and HMX Xinhais](./images/2024-12-29_spring_swap.jpg)
+
+Just days after settling on the MP Tactiles, I went back to the Nixies.
+
+With my first build where I used the Nixies, they seemed to light to me with the 50g 15mm TX springs. Then I started thinking about doing another spring swap:
+It would be a shame if the switches I invested the most time on (lube + film + spring swap) went unused. I wanted to make them great.
+I swapped the springs between the Nixies and the HMX Xinhais.
+Now the Xinhais have the 50g 15mm TX springs and the Nixies have the 62g 22mm springs.
+
+So where could I finally use the Nixies?
+They perfectly fit the theme of my Krush65.
+Cherry switches with the classic Cherry scratch on a classic top mount with a classic beige color scheme.
+
+I still want to use the MP Tactiles somewhere and might have a chance soon in another build.
+
+### Cherry MX Black Clear-top (Nixies")
+
+![Cherry Clear Tops product photo](./images/2024-12-29_nixies.jpg)
+
+|  |  |
+| ---- | ---- |
+| Switch type | Linear |
+| Top housing material | Nylon |
+| Bottom housing material | Nylon |
+| Stem material | POM |
+| Spring | 22mm KOS single stage extended |
+| Operating force | 55gf |
+| Bottom-out force | 62.5gf |
+| Pre-travel distance | 2.0mm |
+| Total travel distance | 4.0mm |
+
+The Cherry MX Black Clear-top (New Nixies)[^nixies][^nixies_review] use a classic design with Nylon housing and POM stem. They are "inspired by what Cherry used in old Nixdorf CT06 CT07/2 M Softkeys Keyboard from the 1980s"[^nixies_candykeys].
+
+[^nixies]: cherry.de [Cherry MX Black Clear-top](https://www.cherry.de/en-us/product/mx-black-clear-top)
+[^nixies_candykeys]: candykeys.de [Cherry MX "Nixie" Black Clear-Top Switch](https://candykeys.com/product/cherry-mx-nixie-black-clear-tops)
+[^nixies_review]: theremingoat [Cherry MX ‘New Nixie’ Switch Review](https://www.theremingoat.com/blog/cherry-mx-new-nixie-switch-review)
+
+I bought the Nixies for 40 Euros in a pack of 100. Additionally, I bought a set of switch films and springs; and I applied some lube. Overall that brought the costs up to about 60 Euros. That brings up the price for the final build to around 350 Euros.
+
+### The Updated Bill
+
+```plain
+Krush65 keyboard kit                            201 EUR
+XMI Vintage Beige (Base, Colevrak)               68 EUR
+Cherry Clear Tops (Nixies)                       61 EUR
+SW Knight Stabilizers v1                         20 EUR
+-------------------------------------------------------
+                                                350 EUR
+```
+
+### The Updated Result
+
+<figure>
+  <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
+  <audio controls src="/media/2024-12-29_keyboard_krush65_nixies.mp3"></audio>
+</figure>
+
+|  |  |
+| ---- | ---- |
+| Keyboard Kit   | Krush65 |
+| Plate material | PP |
+| Mounting style | Top mount |
+| Keycaps | XMI Vintage Beige |
+| Switches | Cherry Clear Tops (Nixies) |
+| Stabilizers | SW Knight Stabilizers v1 |
+| Foam | - |
+| Weight | 2.13kg |
