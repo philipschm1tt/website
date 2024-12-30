@@ -1,5 +1,5 @@
 ---
-title: "Keyboard 2: Tiger80 Lite + PBTfans BoW + Owlab Tungsten"
+title: "Keyboard 2: Tiger80 Lite"
 subheading: "All the foams!"
 description: "The one in which I \"needed\" more than one overpriced keyboard."
 pubDate: "2024-08-19"
@@ -179,3 +179,91 @@ But it's not my favorite sound, either.
 
 I'm happy with how it turned out.
 In the future, I might try some other configurations using different keycaps or experimenting how it would sound with other switches I own.
+
+## 2024-12-29: Changed keycaps and switches
+
+I liked my Tiger80 Lite configuration but I haven't used the board much lately.
+In addition, I wanted to try a new look and different sound profile.
+
+Time for a change.
+
+### GMK Stealth x GMK Metropolis
+
+![GMK Stealth base kit render](./images/2024-08-18_stealth_base.jpg)
+![GMK Metropolis Midnight base kit render](./images/2024-08-24_metropolis_midnight.jpg)
+
+I've bought a couple of GMK keycap sets and their overpriced child kits:
+I bought the Stealth Blackout kit[^gmk_stealth] (alphas) and the Metropolis Turnpike kit[^gmk_metropolis] (modifiers).
+As a result, the base Stealth alphas and base Metropolis Midnight modifiers went unused.
+I've been looking for a way to make use these "leftovers".
+It turns out they work well together and look good on my Tiger80 Lite.
+
+[^gmk_stealth]: [Keyboard 1: Freebird TKL + GMK Stealth](/blog/2024-08-18_keyboard_1_fbtkl/)
+[^gmk_metropolis]: [Keyboard 7: Neo70 + GMK Metropolis](/blog/2024-08-24_keyboard_7_neo70/)
+
+GMK Child kits are pricey. I paid around 160 Euros for the two child kits I used on the Freebird TKL and the Neo70. That's as much as another base kit.
+
+### Keygeek Y3
+
+![Keygeek Y3 product photo](./images/2024-12-30_keygeek_y3.jpg)
+
+|  |  |
+| ---- | ---- |
+| Switch type | Linear |
+| Top housing material | Nylon PA6 |
+| Bottom housing material | Nylon PA66 |
+| Stem material | M3 |
+| Spring | 20mm KOS extended single-stage spring |
+| Operating Force | 48gf |
+| Bottom-out Force | 53gf |
+| Pre-travel distance | 2.0mm |
+| Total travel distance | 3.8mm |
+
+> The Y3 switch is smooth, deep, and solid.
+> If you prefer something that is subtle and not too loud or harsh,
+> the Y3 switches are a great option.
+> — <cite>unikeyboards.com[^y3_unikeys]</cite>
+
+[^y3_unikeys]: unikeyboards.com [Keygeek X MZ Y3](https://unikeyboards.com/en-de/products/keygeek-x-mz-y3-linear-switch-factory-lubed-edition-10pcs)
+
+The Keygeek Y3s are one of my favorite recent switches.
+I was tempted to use them in both my Cycle7 and Krush65, and now I immediately went looking for the next oppotunity to use them.
+
+The Keygeek Y3s feel great. They are super smooth and this might be the perfect spring weight for me.
+I like their deep sound.
+
+I bought them second-hand in a pack of 90 for 18 Euros including shipping.
+
+### The Updated Bill
+
+The GMK keycaps increase the price for the build but the cheap switches partially make up for the difference.
+
+```plain
+Tiger 80 Lite keyboard kit                      120 EUR
+GMX Stealth x Metropolis Midnight               160 EUR
+Keygeek Y3 switches                              18 EUR
+TX AP 1.2mm stabilizers                          25 EUR
+-------------------------------------------------------
+                                                323 EUR
+```
+
+### The Updated Result
+
+![Tiger80 Lite + GMK Stealth x GMK Metropolis Midnight](./images/2024-12-30_tiger80_stealth_metropolis.jpg)
+
+<figure>
+  <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
+  <audio controls src="/media/2024-12-30_keyboard_tiger80_y3.mp3"></audio>
+</figure>
+
+|  |  |
+| ---- | ---- |
+| Keyboard Kit | Tiger 80 Lite |
+| Plate material | PC |
+| Mounting style | Gasket |
+| Keycaps | GMK Stealth alphas x GMK Metropolis modifiers |
+| Switches | Keygeek Y3 |
+| Stabilizers | TX AP 1.2mm |
+| Foam | Plate foam |
+| Mods | – |
+| Weight | 0.65kg |
