@@ -145,7 +145,7 @@ And 160 Euros for a decent aluminum keyboard kit is not unreasonable, either.
 
 ![Keychron Q65, GMK Mictlán](./images/2024-08-20_q65_mictlan.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-08-20_keyboard_q65.mp3"></audio>
 </figure>

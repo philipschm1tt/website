@@ -114,7 +114,7 @@ My cheapest keyboard!
 
 ![NovelKeys NK87 with GMK Pulse Mitolet](./images/2024-08-22_nk87_mitolet.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-08-22_keyboard_nk87.mp3"></audio>
 </figure>

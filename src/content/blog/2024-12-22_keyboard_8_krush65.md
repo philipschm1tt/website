@@ -138,7 +138,7 @@ SW Knight Stabilizers v1                         20 EUR
 ![Krush65 with XMI Vintage Beige](./images/2024-12-22_krush65_xmi.jpg)
 ![Krush65 bottom](./images/2024-12-22_krush65_bottom.jpg)
   
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-12-22_keyboard_krush65.mp3"></audio>
 </figure>
@@ -219,7 +219,7 @@ SW Knight Stabilizers v1                         20 EUR
 
 ### The Updated Result
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-12-29_keyboard_krush65_nixies.mp3"></audio>
 </figure>

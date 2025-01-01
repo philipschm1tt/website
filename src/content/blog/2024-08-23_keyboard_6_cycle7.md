@@ -129,7 +129,7 @@ HMX Xinhai                                     45 EUR
 
 ![TKD Cycle7 with MTNU Beige](./images/2024-08-23_cycle7_mtnu.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-08-23_keyboard_cycle7.mp3"></audio>
 </figure>
@@ -198,7 +198,7 @@ But in my current configuration with the foams and the MTNU switches, they shine
 
 ### The Updated Result
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-12-26_keyboard_cycle7_v1.mp3"></audio>
 </figure>

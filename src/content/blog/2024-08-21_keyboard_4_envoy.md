@@ -114,7 +114,7 @@ TX AP stabilizers                                25 EUR
 
 ![Mode Envoy with GMK WoB](./images/2024-08-21_envoy_wob.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-08-21_keyboard_envoy.mp3"></audio>
 </figure>

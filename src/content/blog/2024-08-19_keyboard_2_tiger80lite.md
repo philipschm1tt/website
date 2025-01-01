@@ -140,7 +140,7 @@ With a cheaper kit bought on the aftermarket and the reasonably priced PBTfans k
 
 ![Tiger 80 Lite PBTfans Black-on-White](./images/2024-08-19_tiger80_bow.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-08-19_keyboard_tiger.mp3"></audio>
 </figure>
@@ -251,7 +251,7 @@ TX AP 1.2mm stabilizers                          25 EUR
 
 ![Tiger80 Lite + GMK Stealth x GMK Metropolis Midnight](./images/2024-12-30_tiger80_stealth_metropolis.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-12-30_keyboard_tiger80_y3.mp3"></audio>
 </figure>

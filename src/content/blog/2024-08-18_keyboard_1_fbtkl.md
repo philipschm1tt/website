@@ -183,7 +183,7 @@ I also purchased a set of Boba U4 silent switches and later sold them used.
 
 ![Freebird TKL, GMK Stealth, blackout kit](./images/2024-08-18_freebird_tkl_stealth_black.jpg)
 
-<figure>
+<figure class="w-content">
   <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
   <audio controls src="/media/2024-08-18_keyboard_fbtkl.mp3"></audio>
 </figure>
