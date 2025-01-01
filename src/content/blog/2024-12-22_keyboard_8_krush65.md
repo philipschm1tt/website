@@ -95,7 +95,7 @@ After I paid ~60 Euros for a Colevrak kit for my MTNU Beige keycaps, a complete 
 
 The SW x Haimu MP Tactile[^mptactile_delta] switches feature metal inserts at the bottom of the stem. This produces a sharper, higher-pitched sound compared to the impact of plastic on plastic.
 
-[^mptactile_delta]: deltakeyco.com [SWK Catmint](https://deltakeyco.com/products/swk-x-haimu-mp-tactile-switches)
+[^mptactile_delta]: deltakeyco.com [SW x Haimu MP Tactile](https://deltakeyco.com/products/swk-x-haimu-mp-tactile-switches)
 
 I was curious about the metal poles.
 Videos seemed promising.
@@ -224,13 +224,20 @@ SW Knight Stabilizers v1                         20 EUR
   <audio controls src="/media/2024-12-29_keyboard_krush65_nixies.mp3"></audio>
 </figure>
 
+In the end, I liked the clean sound of the MP Tacticles spacebar more than the Nixies spacebar.
+
+<figure class="w-content">
+  <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
+  <audio controls src="/media/2024-12-29_keyboard_krush65_nixies_mptactilespace.mp3"></audio>
+</figure>
+
 |  |  |
 | ---- | ---- |
 | Keyboard Kit   | Krush65 |
 | Plate material | PP |
 | Mounting style | Top mount |
 | Keycaps | XMI Vintage Beige |
-| Switches | Cherry Clear Tops (Nixies) |
+| Switches | Cherry Clear Tops (Nixies), SW x Haimu MP Tactile for spacebar |
 | Stabilizers | SW Knight Stabilizers v1 |
 | Foam | - |
 | Weight | 2.13kg |
