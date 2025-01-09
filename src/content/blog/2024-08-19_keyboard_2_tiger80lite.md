@@ -56,7 +56,9 @@ I paid 120 Euros for the kit (100 Euros), an additional second case (15 Euros) i
 
 [^kbdfans_tiger]: kbdfans.com [Tiger 80 Lite](https://kbdfans.com/products/kbdfans-tiger-lite-keyboard-kit)
 
-## PBTfans Black on White (BoW)
+## Build 1
+
+### PBTfans Black on White (BoW)
 
 ![PBTfans Black-on-White](./images/2024-08-19_pbtfans_bow.jpg)
 
@@ -75,7 +77,7 @@ They offer versions with only symbols on the modifier keys.
 
 I bought the keycaps for 90 Euros – in-stock without having to wait a few years.
 
-## Owlab Tungsten
+### Owlab Tungsten
 
 ![Owlab Tungsten product photos](./images/2024-08-19_owlab_tungsten.jpg)
 
@@ -97,7 +99,7 @@ I liked them on the Tiger80 Lite with PE foam.
 
 [^tungsten]: Keyboard Enthusiast [Owlab Tungsten Switches: Usage Report](https://keyboardenthusiast.substack.com/p/owlab-tungsten-switches-usage-report)
 
-## The Build
+### The Build
 
 For my second keyboard, I started the switch selection process with a switch tester.
 I bought one switch each for 20+ types of switches and tried all switches directly on the Tiger80 Lite.
@@ -122,7 +124,7 @@ I used TX AP stabilizers for 1.2mm PCBs.
 I was not fully successful with tuning the stabilizers for the spacebar.
 After my great experience tuning the Staebies spacebar for my Freebird TKL, I used a leftover Staebies stabilizer for the spacebar of the Tiger80 Lite.
 
-## The Bill
+### The Bill
 
 ```plain
 Tiger 80 Lite keyboard kit                      120 EUR
@@ -136,7 +138,7 @@ TX AP 1.2mm stabilizers                          25 EUR
 Compared to my first custom keyboard, this one was a bargain.
 With a cheaper kit bought on the aftermarket and the reasonably priced PBTfans keycaps, you could create a great build for less than 250 Euros. I went a bit above that with switches and stabilizers that are on the expensive side.
 
-## The Result
+### The Result
 
 ![Tiger 80 Lite PBTfans Black-on-White](./images/2024-08-19_tiger80_bow.jpg)
 
@@ -180,7 +182,7 @@ But it's not my favorite sound, either.
 I'm happy with how it turned out.
 In the future, I might try some other configurations using different keycaps or experimenting how it would sound with other switches I own.
 
-## 2024-12-29: Changed keycaps and switches
+## Build 2 – 2024-12-29: Changed keycaps and switches
 
 I liked my Tiger80 Lite configuration but I haven't used the board much lately.
 In addition, I wanted to try a new look and different sound profile.
@@ -265,5 +267,72 @@ TX AP 1.2mm stabilizers                          25 EUR
 | Switches | Keygeek Y3 |
 | Stabilizers | TX AP 1.2mm |
 | Foam | Plate foam |
+| Mods | – |
+| Weight | 0.65kg |
+
+## Build 3 – 2025-01-10: Changed switches
+
+I bought a second Tiger 80 Lite for cheap, so I had some more opportunity to experiment.
+I decided to use one of the Tiger 80s for a silent configuration.
+The idea was that a plastic board with a 1.2mm PCB with flex cuts might be a particularly good fit for silent switches.
+And I had not tried silent linears before.
+
+### Outemu Silent Peach v3
+
+![Outemu Silent Peach v3 product photo](./images/2025-01-10_silentpeach.jpg)
+
+|  |  |
+| ---- | ---- |
+| Switch type | Silent Linear |
+| Top housing material | Nylon PA6 |
+| Bottom housing material | Nylon PA66 |
+| Stem material | POM |
+| Spring | 21mm |
+| Operating Force | 40gf |
+| Bottom-out Force | 45gf |
+| Pre-travel distance | 2.0mm |
+| Total travel distance | 3.3mm |
+
+> The Silent Peach V3 is a smooth and very quiet silent linear switch
+> — <cite>ClickAndThock[^outemu_clickandthock]</cite>
+
+[^outemu_clickandthock]: youtube.com [Ultimate Outemu Silent Peach V3 Sound Test](https://www.youtube.com/watch?v=IvxGnt47JFE)
+
+I bought them in a pack of 100 for 44 Euros including shipping.
+
+### The Updated Bill
+
+The GMK keycaps increase the price for the build but the cheap switches partially make up for the difference.
+
+```plain
+Tiger 80 Lite keyboard kit                      120 EUR
+GMX Stealth x Metropolis Midnight               160 EUR
+Outemu Silent Peach v3 switches                  44 EUR
+TX AP 1.2mm stabilizers                          25 EUR
+-------------------------------------------------------
+                                                349 EUR
+```
+
+### The Updated Result
+
+![Tiger80 Lite + GMK Stealth x GMK Metropolis Midnight](./images/2024-12-30_tiger80_stealth_metropolis.jpg)
+
+<figure class="w-content">
+  <figcaption>Audio sample recorded with Sennheiser MKE 600 about 20cm above the keyboard pointing down:</figcaption>
+  <audio controls src="/media/2025-01-10_keyboard_tiger80_silent_peach.mp3"></audio>
+</figure>
+
+The quiet switches turn the keyboard into a great office keyboard.
+The light, linear switches with their short travel distance appear to be a good fit for the Tiger80 Lite.
+
+|  |  |
+| ---- | ---- |
+| Keyboard Kit | Tiger 80 Lite |
+| Plate material | PC |
+| Mounting style | Gasket |
+| Keycaps | GMK Stealth alphas x GMK Metropolis modifiers |
+| Switches | Outemu Silent Peach v3 |
+| Stabilizers | TX AP 1.2mm |
+| Foam | PE foam, Plate foam |
 | Mods | – |
 | Weight | 0.65kg |
