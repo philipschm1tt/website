@@ -213,3 +213,76 @@ But in my current configuration with the foams and the MTNU switches, they shine
 | Stabilizers | C3 Equalz |
 | Foam | PCB foam, case foam |
 | Weight | 1.95kg |
+
+## 2025-03-02: Changed switches to SW x Haimu MP Tactile
+
+The Cycle7 was good with the V1s – but it still wasn't among my favorite boards to type on.
+In addition, I had the MP Tactile switches that I wanted to use somewhere.
+I figured this might be a good fit.
+
+## SW x Haimu MP Tactile
+
+![SW x Haimu MP Tactile product photo](./images/2024-12-22_mp_tactile.webp)
+
+|  |  |
+| ---- | ---- |
+| Switch type | Tactile |
+| Top housing material | POM |
+| Bottom housing material | POM with Metal Bottom Hole Housing |
+| Stem material | UPE Stem with Metal Pole Tip |
+| Spring | 18mm |
+| Bottom-out force | 62gf |
+| Pre-travel distance | 2.0mm |
+| Total travel distance | 3.6mm |
+
+The SW x Haimu MP Tactile[^mptactile_delta] switches feature metal inserts at the bottom of the stem. This produces a sharper, higher-pitched sound compared to the impact of plastic on plastic.
+
+[^mptactile_delta]: deltakeyco.com [SW x Haimu MP Tactile](https://deltakeyco.com/products/swk-x-haimu-mp-tactile-switches)
+
+The MP Tactiles feel very solid with a clean sound profile and deeper pitch than the metal suggests.
+I previously used them in the Krush65 and liked them a lot – I only switched them out to find a good home for the Nixies.
+
+### The Updated Build
+
+I loved the MP Tactiles on the Krush65 with a top-mounted PP plate.
+Based on that experience, I built the Cycle7 with the PC plate.
+
+There was one stabilizer on the Cycle7 that never sounded quite right to me.
+I took the opportunity of the rebuild to switch from the C3 Equalz stabilizers to Cherry C3 ones.
+I generally seem to do better lubing and tuning Cherry C3 stabilizers than various other models.
+
+### The Updated Bill
+
+```plain
+TKD Cycle7 keyboard kit                       200 EUR
+GMK MTNU Beige (Base, Accents, Typist)        190 EUR
+SW x Haimu MP Tactile                          11 EUR
+Cherry C3 Stabilizer                           10 EUR
+-------------------------------------------------------
+                                              411 EUR
+```
+
+I got the switches as a gift – I only paid for the shipping.
+This brings the total cost of the build down slightly.
+
+### The Updated Result
+
+<figure class="w-content">
+  <figcaption>Audio sample recorded with Sennheiser MKE 600 about 30cm above the keyboard pointing down:</figcaption>
+  <audio controls src="/media/2025-03-02_cycle7_mptactile.mp3"></audio>
+</figure>
+
+I'm pleased with how the Cycle7 turned out.
+It feels great and sounds pretty good.
+The stabilizers turned out great.
+
+|  |  |
+| ---- | ---- |
+| Keyboard Kit   | TKD Cycle7 |
+| Plate material | PC |
+| Mounting style | Gasket mount with gasket strips |
+| Keycaps | GMK MTNU Beige |
+| Switches | SW x Haimu MP Tactile |
+| Stabilizers | C3 Equalz |
+| Foam | PCB foam, case foam |
+| Weight | 1.95kg |
