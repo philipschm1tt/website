@@ -47,13 +47,10 @@ jobs:
           asciidoctor/docker-asciidoctor asciidoctor "dist/docs/documentation.adoc"
 
       # https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/
-      # 3. Deploy to Cloudflare Pages
+      # 3. Deploy to Cloudflare Pages using Wrangler
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "personal-website"
-          directory: "dist"
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref_name }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx wrangler pages deploy dist --project-name=personal-website --branch=${{ github.ref_name }}
