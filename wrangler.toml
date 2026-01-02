@@ -1,6 +1,6 @@
 #:schema node_modules/wrangler/config-schema.json
 name = "personal-website"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-12-01"
 
 # Cloudflare Pages configuration
 pages_build_output_dir = "dist"

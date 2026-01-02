@@ -1,4 +1,4 @@
-# Migration to Cloudflare Wrangler
+# Migration to Wrangler CLI
 
 ## Overview
 
